@@ -1,6 +1,6 @@
 import  React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import 'style.css';
+import 'index.css';
 
 class CalcButtons extends Component {
   constructor(props) {
