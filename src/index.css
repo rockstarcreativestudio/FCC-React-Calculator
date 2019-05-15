@@ -1,14 +1,165 @@
 body {
+  height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.calc {
+  background-image: url('https://rockstarcreativestudio.com/wp-content/uploads/2019/05/silverbg.jpg') !important;
+  background-position: center;
+  background-size: cover;
+  border-top: 0 solid;
+  border-right: 5px solid rgba(107,107,107,1);
+  border-bottom: 5px solid rgba(107,107,107,1);
+  border-left: 0 solid;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.calc-contain {
+  width: 400px;
+  height: 600px;
+  flex: 0 1 auto;
+  padding: 40px;
+}
+
+.numbtn {
+  width: 70px;
+  height: 80px;
+  background-color: #303030;
+  color: white;
+  margin: 5px;
+}
+
+.funcbtn {
+  width: 75px;
+  height: 80px;
+  background-color: #D16BA5;
+  color: white;
+  margin: 5px;
+}
+
+.clearbtn {
+  width: 230px;
+  height: 80px;
+  background-color: #52CFFE;
+  color: white;
+  margin: 5px;
+}
+
+.eqbtn {
+  width: 245px;
+  height: 80px;
+  background-color: #1d5f17;
+  color: white;
+  margin: 5px;
+}
+
+.numbtn:active, .clearbtn:active, .funcbtn:active, .btnyuge:active, .eqbtn:active {
+  -webkit-box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+}
+
+.btnyuge {
+  width: 150px;
+  height: 80px;
+  background-color: #303030;
+  color: white;
+  margin: 5px;
+}
+
+.displayinput {
+  background-color: white;
+  color: #616161;
+  font-size: 1.3em;
+  width: 100%;
+  min-height: 4vh;
+  text-align: right;
+  padding-right: 4px;
+  -webkit-box-shadow: inset 5px 5px 4px -4px rgba(0,0,0,0.87);
+box-shadow: inset 5px 5px 4px -4px rgba(0,0,0,0.87);
+}
+
+.displayoutput {
+  background-color: white;
+  color: #616161;
+  font-size: 2.6em;
+  width: 100%;
+  min-height: 6vh;
+  margin: 0;
+  text-align: right;
+  padding-right: 4px;
+  -webkit-box-shadow: inset 5px -5px 4px -4px rgba(0,0,0,0.87); 
+  box-shadow: inset 5px -5px 4px -4px rgba(0,0,0,0.87);
+}
+
+.numcol {
+  padding-right: 2px !important;
+}
+
+.funccol {
+  padding-left: 2px !important;
+}
+
+.displaycol {
+  padding: 5px 2px !important;
+}
+
+@media (max-width: 768px) {
+  
+  .heading {
+    font-size: 2.1em;
+  }
+  
+  .calc-contain {
+    width: 355px;
+    height: 500px;
+    margin: 0 3%;
+  }
+  
+  .numtitle {
+    font-size: 1.2em;
+  }
+  
+  .zerotitle {
+    font-size: 2.3em;
+  }
+  
+  .numbtn {
+    width: 28%;
+    height: 60px;
+    font-size: 1.8em;
+  }
+  
+  .funcbtn {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .clearbtn {
+    width: 95%;
+    height: 60px;
+  }
+  
+  .btnyuge {
+    width: 61%;
+    height: 60px;
+  }
+  
+  .displayinput {
+    font-size: 1.1em;
+  }
+  
+  .displayoutput {
+    font-size: 2.2em;
+  }
 }
