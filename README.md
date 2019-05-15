@@ -10,6 +10,8 @@
 
 <hr>
 
+![App Screenshot](https://rawcdn.githack.com/rockstarcreativestudio/FCC-React-Calculator/2121dfb52463e771c7cf4d2e3ee4e6c9313db2c6/src/screenshot-rockstarcreativestudio.github.io-2019.05.15-14-40-25.png)
+
 # <a name="depend"></a>Dependencies
 
 * Create React App
