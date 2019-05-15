@@ -8,7 +8,7 @@
 * [Support](#support)
 * [License](#license)
 
-< hr >
+<hr>
 
 # <a name="depend"></a>Dependencies
 
