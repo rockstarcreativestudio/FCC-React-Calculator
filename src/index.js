@@ -1,4 +1,7 @@
-class CalcButtons extends React.Component {
+import { React, Component } from 'react';
+import ReactDOM from 'react-dom';
+
+class CalcButtons extends Component {
   constructor(props) {
     super(props)
   }
@@ -85,7 +88,7 @@ const CalcContainer = (props) => {
 
 
 
-class App extends React.Component {
+class App extends Component {
     constructor(props) {
         super(props);
 
