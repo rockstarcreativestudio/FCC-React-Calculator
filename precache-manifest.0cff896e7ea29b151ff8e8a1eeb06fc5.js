@@ -4,15 +4,19 @@ self.__precacheManifest = [
     "url": "/FCC-React-Calculator/static/js/runtime~main.b854ccd0.js"
   },
   {
-    "revision": "5cfe4bdf644283b9cc20",
-    "url": "/FCC-React-Calculator/static/js/main.fc110806.chunk.js"
+    "revision": "ff64fc2df50c5daab298",
+    "url": "/FCC-React-Calculator/static/js/main.dede3139.chunk.js"
   },
   {
     "revision": "58f496bc1ce27350f0eb",
     "url": "/FCC-React-Calculator/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "19e2032ec5b03fff7de1bf947e871e7f",
+    "revision": "ff64fc2df50c5daab298",
+    "url": "/FCC-React-Calculator/static/css/main.0f213002.chunk.css"
+  },
+  {
+    "revision": "4ff73937ffa572fc554eba0e048b5e50",
     "url": "/FCC-React-Calculator/index.html"
   }
 ];
