@@ -11,7 +11,7 @@
 
 <hr>
 
-![App Screenshot](https://rawcdn.githack.com/rockstarcreativestudio/FCC-React-Calculator/2121dfb52463e771c7cf4d2e3ee4e6c9313db2c6/src/screenshot-rockstarcreativestudio.github.io-2019.05.15-14-40-25.png | width=350)
+![App Screenshot](https://rawcdn.githack.com/rockstarcreativestudio/FCC-React-Calculator/2121dfb52463e771c7cf4d2e3ee4e6c9313db2c6/src/screenshot-rockstarcreativestudio.github.io-2019.05.15-14-40-25.png){:height="50%" width="50%"}
 
 # <a name="depend"></a>Dependencies
 
