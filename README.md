@@ -17,24 +17,22 @@
 
 * Create React App
 * GH-Pages
-* Bootstrap
+* MaterializeCSS
 
 <hr>
 
 # <a name="about"></a> About the Project
 
-This project was created to satisfy FreeCodeCamp's Javascript Libraries test project. It required me to use one or more of the front-end libraries taught through this section of the course. While they use Codepen as the final output of the project for testing, I generally start with Create React App on my localhost to complete the coding part, keeping all the code in the index.js. This allows me to test and work with the code in a stable environment. When I'm ready, I transfer the code to a Codepen pen for testing and completion of the project. It also allows me to push the project to a Github repo. 
+This project was created to satisfy FreeCodeCamp's Javascript Libraries test project. It required me to use one or more of the front-end libraries taught through this section of the course. While they use Codepen as the final output of the project for testing, I generally start with Create React App on my localhost to complete the coding part, keeping all the code in the index.js. This allows me to test and work with the code in a stable environment before deploying live. When I'm ready, I transfer the code to a Codepen pen for testing and completion of the project. It also allows me to push the project to a Github repo. 
 
-I personally use Materialize more since practicing with it, but opted for Bootstrap for this project to allow for more elements. I used a map function for the number buttons, and then coded the other buttons individually. I admit, the toughest parts were preventing multiple decimals within a number while allowing decimals in the second or third number input. Granted, I haven't had a lot of sleep while working on this, so that could also factor in to why I was not seeing the simple answer - checking the input for decimals, not the full equation. State is wonderful considering how simple the answer was. 
+I opted for MaterializeCSS for the added color options and because I did not need a lot of precrafted components. I used a map function for the key buttons, including their letter, sound name, and sound file. I had built a drum kit for the Javascript 30 challenge, but it only included keyPress functions. This definitely expanded my understanding of how to interact with the DOM in multiple ways. 
 
-I am using eval since outside math libraries weren't recommended but I may add this later when I get time to increase security.
-
-## [Check out the live project.](https://rockstarcreativestudio.github.io/FCC-React-Calculator/)
+## [Check out the live project.](https://rockstarcreativestudio.github.io/FCC-Drum-Kit/)
 
 <hr>
 
 # <a name="support"></a>Support
-Notice an issue with this app? [Leave a ticket here](https://github.com/rockstarcreativestudio/FCC-React-Calculator/issues)
+Notice an issue with this app? [Leave a ticket here](https://github.com/rockstarcreativestudio/FCC-Drum-Kit/issues)
 
 <hr>
 
